@@ -2,13 +2,13 @@
 
 ## Model used:
 <ul>
-<li>Linear Regression pure math - <b></br></li>
-<li>Linear Regression from math scratch with TensorFlow 2 - <b></br></li>
-<li>Linear Regression using dense TensorFlow 2</li>
+<li>Linear Regression pure math - <b>Accuracy 78.71%</b></li>
+<li>Linear Regression from math scratch with TensorFlow 2 - <b>Accuracy</b></li>
+<li>Linear Regression using dense TensorFlow 2 - <b>Accuracy</b></li>
 <li>Linear Regression using Scikit-Learn</li>
 <li>Decision Tree</li>
 <li>Random Forest</li>
-<li>Neural Networks</li>
+<li>Neural Networks - <b>Accuracy 88.57%</b></li>
 </ul>
 
 
