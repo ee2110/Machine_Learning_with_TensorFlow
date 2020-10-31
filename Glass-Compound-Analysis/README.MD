@@ -8,8 +8,8 @@
 <li>Linear Regression from math scratch with TensorFlow 2 - <b>Accuracy</b></li>
 <li>Linear Regression using dense TensorFlow 2 - <b>Accuracy 86.42%</b></li>
 <li>Linear Regression using Scikit-Learn - <b>Accuracy 86.76%</b></li>
-<li>Decision Tree</li>
-<li>Random Forest</li>
+<li>Decision Tree using Scikit-Learn - <b>Accuracy </b></li>
+<li>Random Forest using Scikit-Learn - <b>Accuracy </b></li>
 <li>Deep Neural Networks Regression - <b>Accuracy 88.57%</b></li>
 </ul>
 
