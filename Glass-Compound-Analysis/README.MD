@@ -5,7 +5,7 @@
 ## Model used:
 <ul>
 <li>Linear Regression pure math - <b>Accuracy 78.71%</b></li>
-<li>Linear Regression from math scratch with TensorFlow 2 - <b>Accuracy</b></li>
+<li>Linear Regression from math scratch with TensorFlow 2 - <b>Accuracy 90.06%</b></li>
 <li>Linear Regression using dense TensorFlow 2 - <b>Accuracy 86.42%</b></li>
 <li>Linear Regression using Scikit-Learn - <b>Accuracy 86.76%</b></li>
 <li>Decision Tree using Scikit-Learn - <b>Accuracy 87.73%</b></li>
