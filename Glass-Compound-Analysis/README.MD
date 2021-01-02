@@ -37,6 +37,9 @@
 The best is Erbium 0.05, because it has high density and larger compactness. However, the result of molar volume is giving the best when the erbium is 0.01.
 
 
+1) Come out model that can predict erbium concentration based on the features.
+2) Maybe clustering?
+
 
 
 
