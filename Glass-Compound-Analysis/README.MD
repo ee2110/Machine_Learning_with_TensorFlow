@@ -1,14 +1,16 @@
 # Glass Chemical Compound Analysis
 
+## 1) Erbium Density Prediction
+
 ## Model used:
 <ul>
 <li>Linear Regression pure math - <b>Accuracy 78.71%</b></li>
 <li>Linear Regression from math scratch with TensorFlow 2 - <b>Accuracy</b></li>
 <li>Linear Regression using dense TensorFlow 2 - <b>Accuracy 86.42%</b></li>
-<li>Linear Regression using Scikit-Learn</li>
+<li>Linear Regression using Scikit-Learn - <b>Accuracy 86.76%</b></li>
 <li>Decision Tree</li>
 <li>Random Forest</li>
-<li>Neural Networks - <b>Accuracy 88.57%</b></li>
+<li>Deep Neural Networks Regression - <b>Accuracy 88.57%</b></li>
 </ul>
 
 
@@ -25,9 +27,17 @@
 
 </ol>
 
+## 1) Erbium Concentration Prediction
 
-
-
+## Model used:
+<ul>
+<li>Deep Neural Networks Regression - <b>Accuracy</b></li>
+<li>Linear Regression from math scratch with TensorFlow 2 - <b>Accuracy</b></li>
+<li>Linear Regression using dense TensorFlow 2 - <b>Accuracy</b></li>
+<li>Linear Regression using Scikit-Learn - <b>Accuracy</b></li>
+<li>Decision Tree</li>
+<li>Random Forest</li>
+</ul>
 
 
 1) ANN is use to predict the best erbium concentration for density and molar volume parameter towards fiber optics application.
@@ -36,10 +46,10 @@
 
 The best is Erbium 0.05, because it has high density and larger compactness. However, the result of molar volume is giving the best when the erbium is 0.01.
 
-
 1) Come out model that can predict erbium concentration based on the features.
 2) Maybe clustering?
 
+Since the actual output of the erbium concentration is descrete value, range from 0.01 to 0.05, and the variation between them is very small causing difficulty in accurate prediction. Therefore, this notebook is to shows the problem on the prediction and we will work on another notebook to treat it as classification task.
 
 
 
