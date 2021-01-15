@@ -29,6 +29,6 @@ On the other hand if we use pruning, we in effect look at a few steps ahead and 
 
 
 Source:
-1. https://www.analyticsvidhya.com/blog/2020/05/decision-tree-vs-random-forest-algorithm/
+1. https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
 
 2. https://www.analyticsvidhya.com/blog/2016/04/tree-based-algorithms-complete-tutorial-scratch-in-python/?utm_source=blog&utm_medium=decision-tree-vs-random-forest-algorithm
