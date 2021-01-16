@@ -4,7 +4,7 @@ Tree based algorithms are considered to be one of the best and mostly used super
 
 It works for both categorical and continuous input and output variables.
 
-A decision tree is a supervised machine learning algorithm that can be used for both classification and regression problems. Random Forest is a tree-based machine learning algorithm that leverages the power of multiple decision trees for making decisions. As the name suggests, it is a “forest” of trees!
+A decision tree is a non-parametric supervised machine learning algorithm that can be used for both classification and regression problems. Random Forest is a tree-based machine learning algorithm that leverages the power of multiple decision trees for making decisions. As the name suggests, it is a “forest” of trees!
 
 But why do we call it a “random” forest? That’s because it is a forest of randomly created decision trees. Each node in the decision tree works on a random subset of features to calculate the output. The random forest then combines the output of individual decision trees to generate the final output. The Random Forest Algorithm combines the output of multiple (randomly created) Decision Trees to generate the final output.
 
