@@ -27,16 +27,15 @@
 
 </ol>
 
-## 1) Erbium Concentration Prediction
+## 2) Erbium Concentration Prediction
 
 ## Model used:
 <ul>
-<li>Deep Neural Networks Regression - <b>Accuracy</b></li>
-<li>Linear Regression from math scratch with TensorFlow 2 - <b>Accuracy</b></li>
-<li>Linear Regression using dense TensorFlow 2 - <b>Accuracy</b></li>
-<li>Linear Regression using Scikit-Learn - <b>Accuracy</b></li>
-<li>Decision Tree</li>
-<li>Random Forest</li>
+<li>Deep Neural Networks Regression TensorFlow 2 - <b>Accuracy</b></li>
+<li>Decision Tree Regression using Scikit-Learn - <b>Accuracy</b></li>
+<li>Random Forest Regression using Scikit-Learn - <b>Accuracy</b></li>
+<li>Decision Tree Classification using Scikit-Learn - <b>Accuracy</b></li>
+<li>Random Forest Classification using Scikit-Learn - <b>Accuracy</b></li>
 </ul>
 
 
