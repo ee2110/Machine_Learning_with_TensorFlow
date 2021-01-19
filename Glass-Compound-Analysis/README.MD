@@ -32,8 +32,8 @@
 ## Model used:
 <ul>
 <li>Deep Neural Networks Regression TensorFlow 2 - <b>Accuracy</b></li>
-<li>Decision Tree Regression using Scikit-Learn - <b>Accuracy</b></li>
-<li>Random Forest Regression using Scikit-Learn - <b>Accuracy</b></li>
+<li>Decision Tree Regression using Scikit-Learn - <b>Accuracy 88.93%</b></li>
+<li>Random Forest Regression using Scikit-Learn - <b>Accuracy 90.18%</b></li>
 <li>Decision Tree Classification using Scikit-Learn - <b>Accuracy</b></li>
 <li>Random Forest Classification using Scikit-Learn - <b>Accuracy</b></li>
 </ul>
