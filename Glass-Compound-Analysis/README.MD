@@ -15,17 +15,16 @@
 
 
 ## Steps:
-
-1) Gather a training data.
-2) Preprocess
-
-
-## Special notes for myself:
 <ol>
-<li>Why export data from xlsx format into csv format? </li>
-<p> The CSV files are faster and also consumes less memory whereas Excel consumes more memory while importing data. CSV files are commonly used for data exchange between platforms, making the data “raw” again so it can be processed by different applications. This is the most flexible data format. XLSX is the file extension for a Microsoft Excel Spreadsheet. </p>
-
+<li>Gather dataset</li>
+<li>Preprocess data and split into train and test set</li>
+<li>Normalize data if necessary</li>
+<li>Build the model</li>
+<li>Train the model</li>
+<li>Perform testing</li>
+<li>Tune the parameters if necessary</li>
 </ol>
+
 
 ## 2) Erbium Concentration Prediction
 
@@ -35,6 +34,13 @@
 <li>Decision Tree Classification using Scikit-Learn - <b>Accuracy</b></li>
 <li>Random Forest Classification using Scikit-Learn - <b>Accuracy</b></li>
 </ul>
+
+### Special notes for myself:
+<ol>
+<li>Why export data from xlsx format into csv format? </li>
+<p> The CSV files are faster and also consumes less memory whereas Excel consumes more memory while importing data. CSV files are commonly used for data exchange between platforms, making the data “raw” again so it can be processed by different applications. This is the most flexible data format. XLSX is the file extension for a Microsoft Excel Spreadsheet. </p>
+
+</ol>
 
 
 1) ANN is use to predict the best erbium concentration for density and molar volume parameter towards fiber optics application.
@@ -49,7 +55,7 @@ The best is Erbium 0.05, because it has high density and larger compactness. How
 Since the actual output of the erbium concentration is descrete value, range from 0.01 to 0.05, and the variation between them is very small causing difficulty in accurate prediction. Therefore, this notebook is to shows the problem on the prediction and we will work on another notebook to treat it as classification task.
 
 
-
+Per classification experiment, it seem like accuracy very high. We need to check if the training feature data has direct relationship to label. One more question is, which variable is manipulate variable? erbium concentration or the other features?
 
 
 
