@@ -1,8 +1,18 @@
-# Glass Chemical Compound Analysis
+# Erbium Chemical Compound Analysis
 
-## 1) Erbium Density Prediction
+These experiment works are associated to a research paper regarding Erbium compound analysis, and the lab experiments results are obtained from the PhD works.
 
-## Model used:
+**In progress of publication submission
+
+---
+## Table of contents
+  * [Erbium Density Prediction](#Erbium_Density_Prediction)
+  * [Erbium Concentration Prediction](#Erbium_Concentration_Classification)
+
+
+### [Erbium Density Prediction](Erbium_Density_Prediction)
+
+**Model used:**
 <ul>
 <li>Linear Regression pure math - <b>Accuracy 78.71%</b></li>
 <li>Linear Regression from math scratch with TensorFlow 2 - <b>Accuracy 90.06%</b></li>
@@ -14,9 +24,9 @@
 </ul>
 
 
-## Steps:
+**Steps**
 <ol>
-<li>Gather dataset</li>
+<li>Gather data</li>
 <li>Preprocess data and split into train and test set</li>
 <li>Normalize data if necessary</li>
 <li>Build the model</li>
@@ -26,51 +36,55 @@
 </ol>
 
 
-## 2) Erbium Concentration Prediction
+### [Erbium Concentration Prediction](Erbium_Concentration_Classification)
 
-## Model used:
+**Model used:**
 <ul>
-<li>Deep Neural Networks Regression TensorFlow 2 - <b>Accuracy</b></li>
-<li>Decision Tree Classification using Scikit-Learn - <b>Accuracy</b></li>
-<li>Random Forest Classification using Scikit-Learn - <b>Accuracy</b></li>
+<li>Deep Neural Networks with TensorFlow-v2 - <b>Accuracy 0.88</b></li>
+<li>Decision Tree Classification using Scikit-Learn - <b>Accuracy 0.98</b></li>
+<li>Multi-Layer Peceptron using Scikit-Learn - <b>Accuracy 0.66</b></li>
+<li>Logistic Regression using Scikit-Learn - <b>Accuracy 0.42</b></li>
+<li>Stochastic Gradient Descent using Scikit-Learn - <b>Accuracy 0.26</b></li>
 </ul>
 
-### Special notes for myself:
+
+**Pairplot of properties and concentrations**
+<img alt="pair-plot" width="80%" src="img/pairplot.png">
+
+**Sample of classification results**
+
+DNN with TF-v2
+<img alt="pair-plot" width="80%" src="img/DNN_tf2_classification-088.png">
+
+Decision Tree with sklearn
+<img alt="pair-plot" width="80%" src="img/tree_sklearn_classification-098.png">
+
+MLP with sklearn
+<img alt="pair-plot" width="80%" src="img/MLP_sklearn_classification-066.png">
+
+Logistic Regression with sklearn
+<img alt="pair-plot" width="80%" src="img/logistic_sklearn_classification-042.png">
+
+SGD with sklearn
+<img alt="pair-plot" width="80%" src="img/SGD_sklearn_classification-026.png">
+
+
+---
+
+**Special notes for our members**
+
 <ol>
 <li>Why export data from xlsx format into csv format? </li>
 <p> The CSV files are faster and also consumes less memory whereas Excel consumes more memory while importing data. CSV files are commonly used for data exchange between platforms, making the data “raw” again so it can be processed by different applications. This is the most flexible data format. XLSX is the file extension for a Microsoft Excel Spreadsheet. </p>
-
 </ol>
 
 
 1) ANN is use to predict the best erbium concentration for density and molar volume parameter towards fiber optics application.
-
-
-
-The best is Erbium 0.05, because it has high density and larger compactness. However, the result of molar volume is giving the best when the erbium is 0.01.
-
-1) Come out model that can predict erbium concentration based on the features.
-2) Maybe clustering?
-
-
-
-
-Since the actual output of the erbium concentration is descrete value, range from 0.01 to 0.05, and the variation between them is very small causing difficulty in accurate prediction. Therefore, this notebook is to shows the problem on the prediction and we will work on another notebook to treat it as classification task.
-
-
-Per classification experiment, it seem like accuracy very high. We need to check if the training feature data has direct relationship to label. One more question is, which variable is manipulate variable? erbium concentration or the other features?
-
-
-1) any features are directly relationship? no
-2) which paper can take as references? Nazrin will read through and provide the paper.
-3) Next step we can do? 
-- Yeo will continue classification tasks including other models.
-- Try clustering tasks such as K-means, refer to Iris clustering.
-4) Among 7 features, maybe can try select most significant top-3 features that give most of the impact. From there, we can do clustering again.
-
-
-
-
+2) The best is Erbium 0.05, because it has high density and larger compactness. However, the result of molar volume is giving the best when the erbium is 0.01.
+3) Come out model that can predict erbium concentration based on the features.
+4) Since the actual output of the erbium concentration is descrete value, range from 0.01 to 0.05, and the variation between them is very small causing difficulty in accurate prediction. Therefore, this notebook is to shows the problem on the prediction and we will work on another notebook to treat it as classification task.
+5) Per classification experiment, it seem like accuracy very high. We need to check if the training feature data has direct relationship to label.
+6) Per domain expert feedback, no directly relationship between any features.
 
 
 
