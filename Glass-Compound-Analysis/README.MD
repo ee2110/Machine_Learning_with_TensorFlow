@@ -1,6 +1,6 @@
 # Erbium Chemical Compound Analysis
 
-These experiment works are associated to a research paper regarding Erbium compound analysis, and the lab experiments results are obtained from the PhD works.
+These experiment works are associated to a collaborative research paper regarding Erbium compound analysis, and the lab experiments results are obtained from our collaborator's PhD works.
 
 **In progress of publication submission
 
@@ -49,24 +49,35 @@ These experiment works are associated to a research paper regarding Erbium compo
 
 
 **Pairplot of properties and concentrations**
+
 <img alt="pair-plot" width="80%" src="img/pairplot.png">
 
 **Sample of classification results**
 
+
 DNN with TF-v2
-<img alt="pair-plot" width="80%" src="img/DNN_tf2_classification-088.png">
+
+<img alt="pair-plot" width="50%" src="img/DNN_tf2_classification-088.png">
+
 
 Decision Tree with sklearn
-<img alt="pair-plot" width="80%" src="img/tree_sklearn_classification-098.png">
+
+<img alt="pair-plot" width="50%" src="img/tree_sklearn_classification-098.png">
+
 
 MLP with sklearn
-<img alt="pair-plot" width="80%" src="img/MLP_sklearn_classification-066.png">
+
+<img alt="pair-plot" width="50%" src="img/MLP_sklearn_classification-066.png">
+
 
 Logistic Regression with sklearn
-<img alt="pair-plot" width="80%" src="img/logistic_sklearn_classification-042.png">
+
+<img alt="pair-plot" width="50%" src="img/logistic_sklearn_classification-042.png">
+
 
 SGD with sklearn
-<img alt="pair-plot" width="80%" src="img/SGD_sklearn_classification-026.png">
+
+<img alt="pair-plot" width="50%" src="img/SGD_sklearn_classification-026.png">
 
 
 ---
