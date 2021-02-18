@@ -52,11 +52,34 @@ The best is Erbium 0.05, because it has high density and larger compactness. How
 1) Come out model that can predict erbium concentration based on the features.
 2) Maybe clustering?
 
+
+
+
 Since the actual output of the erbium concentration is descrete value, range from 0.01 to 0.05, and the variation between them is very small causing difficulty in accurate prediction. Therefore, this notebook is to shows the problem on the prediction and we will work on another notebook to treat it as classification task.
 
 
 Per classification experiment, it seem like accuracy very high. We need to check if the training feature data has direct relationship to label. One more question is, which variable is manipulate variable? erbium concentration or the other features?
 
+
+1) any features are directly relationship? no
+2) which paper can take as references? Nazrin will read through and provide the paper.
+3) Next step we can do? 
+- Yeo will continue classification tasks including other models.
+- Try clustering tasks such as K-means, refer to Iris clustering.
+4) Among 7 features, maybe can try select most significant top-3 features that give most of the impact. From there, we can do clustering again.
+
+
+
+
+
+
+
+What we can put in the paper for apply machine learning part:
+1) The algorithms that used for prediction, discuss about each model
+2) The illustration of algorithms
+3) Prediction results, compare accuracy and determine which model perform best. 
+
+Proceed to writing.
 
 
 
