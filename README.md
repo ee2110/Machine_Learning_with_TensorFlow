@@ -29,6 +29,31 @@ The most widely used learning algorithms are:
 <li>Similarity Learning</li>
 </ul>
 
+
+## Activation Functions
+
+<ol>
+<li>Sigmoid Function Usage</li>
+<p>The Sigmoid function used for binary classification in logistic regression model. While creating artificial neurons sigmoid function used as the activation function. In statistics, the sigmoid function graphs are common as a cumulative distribution function.
+The sigmoid function returns a real-valued output.
+The first derivative of the sigmoid function will be non-negative or non-positive.
+Non-Negative: If a number is greater than or equal to zero.
+Non-Positive: If a number is less than or equal to Zero.
+</p>
+
+<li>
+Properties of Softmax Function
+Below are the few properties of softmax function.
+
+The calculated probabilities will be in the range of 0 to 1.
+The sum of all the probabilities is equals to 1.
+Softmax Function Usage
+Used in multiple classification logistic regression model.
+In building neural networks softmax functions used in different layer level.
+
+</li>
+</ol>
+
 ## TensorFlow
 
 Thanks to TensorFlow and Google Brain team!
